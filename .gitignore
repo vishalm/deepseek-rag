@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+env/
+.venv/
+venv/
+ENV/
+
+# Dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs & temp files
+logs/
+*.log
+*.out
+*.err
+tmp/
+*.swp
+*.swo
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+config.json
+
+# VSCode & JetBrains IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# Compiled C extensions
+*.so
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Media & Static files (optional)
+media/
+staticfiles/

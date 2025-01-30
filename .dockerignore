@@ -1,0 +1,47 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Ignore environment & dependency files
+.env
+.venv/
+venv/
+*.env
+Pipfile
+Pipfile.lock
+
+# Ignore package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+.DS_Store
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.err
+tmp/
+*.swp
+*.swo
+
+# Ignore IDE and editor configs
+.vscode/
+.idea/
+*.iml
+
+# Ignore Docker-related files
+docker-compose.override.yml
+.Dockerfile.swp
+
+# Ignore uploaded media files (if applicable)
+media/
+staticfiles/
