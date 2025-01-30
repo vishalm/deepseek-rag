@@ -6,8 +6,7 @@
 Ollama is a framework for running large language models (LLMs) locally on your machine. It allows you to download, run, and interact with AI models without relying on cloud-based APIs.  
 
 #### streamlet UI
-
-![alt text](/resources/image-2.png)
+![alt text](resources/image-portal.png)
 
 ### **Why use it?**  
 ✅ Free  
