@@ -64,3 +64,4 @@ dist/
 # Media & Static files (optional)
 media/
 staticfiles/
+*.pdf

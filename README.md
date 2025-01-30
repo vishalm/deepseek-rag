@@ -5,6 +5,10 @@
 ## **🤖 Ollama**  
 Ollama is a framework for running large language models (LLMs) locally on your machine. It allows you to download, run, and interact with AI models without relying on cloud-based APIs.  
 
+#### streamlet UI
+
+![alt text](/resources/image-2.png)
+
 ### **Why use it?**  
 ✅ Free  
 ✅ Private & Secure  
@@ -201,3 +205,17 @@ You now have a fully functional local RAG system powered by:
 ✅ **Streamlit** for an interactive UI  
 
 This setup enables **secure, fast, and cost-free** AI-powered document retrieval and Q&A. 🚀  
+
+
+### Model Information
+```
+tail -f  ~/.ollama/logs/server.log
+```
+
+#### Model Information
+![alt text](/resources/image-1.png)
+
+#### macmon
+
+![alt text](/resources/image.png)
+
