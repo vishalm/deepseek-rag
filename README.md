@@ -109,17 +109,11 @@ ollama run deepseek-r1:1.5b
 Before running the RAG system, install the required dependencies:  
 
 ```sh
-pip install -U langchain langchain-community
-pip install streamlit
-pip install pdfplumber
-pip install semantic-chunkers
-pip install open-text-embeddings
-pip install faiss
-pip install ollama
-pip install prompt-template
-pip install langchain_experimental
-pip install sentence-transformers
-pip install faiss-cpu
+git clone https://github.com/vishalm/deepseek-rag.git
+cd deepseek-rag
+virtualenv venv
+source venv
+pip install -r requirement.txt
 ```
 
 ---
