@@ -14,6 +14,9 @@ Ollama is a framework for running large language models (LLMs) locally on your m
 ✅ Fast  
 ✅ Works Offline  
 
+## Yes Docker Ready
+`docker run -p 8501:8501 vismis/streamlit-app-deepseeker1-7b:1.0.0`
+
 ### **Example Usage:**  
 ```sh
 ollama run deepseek-r1:1.5b
@@ -147,3 +150,38 @@ You now have a fully functional local RAG system powered by:
 ✅ **Streamlit** for an interactive UI  
 
 This setup enables **secure, fast, and cost-free** AI-powered document retrieval and Q&A. 🚀  
+
+
+
+1️⃣ Build the Docker Image
+Since we updated the Dockerfile to preload the model, run:
+
+`docker build -t vismis/streamlit-app-deepseeker1-7b:1.0.0 .`
+(Replace my-dockerhub-username with your actual Docker Hub username.)
+
+2️⃣ Verify the Image Locally
+Run the container to make sure the model is already available:
+
+`docker run -p 8501:8501 vismis/streamlit-app-deepseeker1-7b:1.0.0`
+If everything works fine, proceed to the next step.
+
+3️⃣ Log in to Docker Hub
+`docker login`
+Enter your Docker Hub username and password when prompted.
+
+4️⃣ Tag the Image (If Not Done Before)
+Docker requires a proper tag before pushing. If you built the image without specifying the full name, tag it now:
+`docker tag vismis/streamlit-app-deepseeker1-7b:1.0.0 vismis/streamlit-app-deepseeker1-7b:1.0.0`
+
+5️⃣ Push the Image to Docker Hub
+Now, push the image:
+
+`docker push vismis/streamlit-app-deepseeker1-7b:1.0.0`
+
+6️⃣ Pull and Run on Any Machine
+Once the image is pushed, you can pull and run it anywhere with:
+`docker pull vismis/streamlit-app-deepseeker1-7b:1.0.0`
+`docker run -p 8501:8501 vismis/streamlit-app-deepseeker1-7b:1.0.0`
+
+
+#### *This will start your Streamlit app with the preloaded Ollama model. 🚀*
