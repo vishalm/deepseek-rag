@@ -17,6 +17,12 @@ Ollama is a framework for running large language models (LLMs) locally on your m
 ## Yes Docker Ready
 `docker run -p 8501:8501 vismis/streamlit-app-deepseeker1-7b:1.0.0`
 
+#### **And in your fav browser open**
+ *wait for 3 Mins it will load the model for local usages DeepSeek R1 (1.5B parameter model) , check logs "
+
+ * [deepseek-rag](http://localhost:8501/) http://localhost:8501/
+
+
 ### **Example Usage:**  
 ```sh
 ollama run deepseek-r1:1.5b
